@@ -149,7 +149,7 @@ public class CustomSupport {
      * Создаёт Float значение, возвращает в виде String
      */
     public static String generateFloatStr(){
-        char[] array = new char[Main.Length];
+        char[] array = new char[Main.Length_Digits];
         int rand, rand2;
         Random r = new Random();
         int pointPlacement = r.nextInt(Main.Length_Digits);
